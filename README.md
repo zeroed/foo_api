@@ -27,8 +27,8 @@ content negotiation, versioning and much more.
 formats: 
 
 * JSON/YAML
-  api.php ? action=query & titles=Albert%20Einstein & prop=info & format=jsonfm
+  `api.php ? action=query & titles=Albert%20Einstein & prop=info & format=jsonfm`
 * XML
-  api.php ? action=query & titles=Albert%20Einstein & prop=info & format=xmlfm
+  `api.php ? action=query & titles=Albert%20Einstein & prop=info & format=xmlfm`
 
 `http://en.wikipedia.org/w/api.php?format=xml&action=query&titles=Main%20Page&prop=revisions&rvprop=content`
