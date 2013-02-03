@@ -89,6 +89,10 @@ module Foo
       {:home => 'home_page', :time => Time.now}.to_json
     end
 
+    get '/todo' do
+      {:todo => ['haml template']}
+    end
+
     resource 'wiki' do
       desc "Get the JSON file for the Wikipedia Main Page"
       get 'main' do
